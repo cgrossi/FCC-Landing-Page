@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Big Bike Rentals</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="container">
+    <header id="header" class="container">
+      <img src="https://i.imgur.com/ijCesXG.png" alt="logo" id="header-img" />
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="#about" class="nav-link">About Us</a></li>
+          <li><a href="#bikes" class="nav-link">Our Bikes</a></li>
+          <li><a href="#price" class="nav-link">Pricing</a></li>
+        </ul>
+        <li class="mobile-nav"><i class="fas fa-bars"></i></li>
+      </nav>
+    </header>
+    <section class="container">
+      <div class="email">
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+          <h2>The Best Bikes Around</h2>
+          <p>
+            Get more info by entering your email in the box below. We won't spam
+            you... You can trust us...
+          </p>
+          <input
+            id="email"
+            type="email"
+            placeholder="Enter your email"
+            name="email"
+            required
+          /><br />
+          <input class="btn" type="submit" id="submit" value="Get Started" />
+        </form>
+      </div>
+    </section>
+    <hr />
+    <section id="about" class="container">
+      <div>
+        <div class="item">
+          <div class="icon">
+            <span class="icons">
+              <i class="fas fa-motorcycle"></i>
+            </span>
+          </div>
+
+          <div class="info">
+            <h2>
+              The Newest Bikes
+            </h2>
+            <p>
+              We only source the latest bike models so you can be a cool dude
+              when you ride.
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="icon">
+            <span class="icons">
+              <i class="fas fa-truck"></i>
+            </span>
+          </div>
+
+          <div class="info">
+            <h2>
+              Free Delivery
+            </h2>
+            <p>
+              We'll bring the bike to you! No more headaches planning how to
+              pick the bike up. We also offer pick up.
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="icon">
+            <span class="icons">
+              <i class="fas fa-lock"></i>
+            </span>
+          </div>
+
+          <div class="info">
+            <h2>
+              Full Insurance Provided
+            </h2>
+            <p>
+              You will be covered with our premium insurance in the case that
+              anything should go wrong.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-responsive video">
+        <iframe
+          id="video"
+          src="https://www.youtube.com/embed/mmUXtlVLAXU"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+    <hr />
+    <section id="bikes">
+      <h2 id="bike-heading">Our Bikes</h2>
+      <div class="container bikes">
+        <div class="card">
+          <h3>This Bike</h3>
+          <img src="https://i.imgur.com/sBdjDKP.jpg" alt="" />
+          <p>
+            Get one of these bikes <br />Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Fuga architecto dolor eaque ut fugit natus
+            quibusdam inventore aspernatur veniam neque.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Or This Bike</h3>
+          <img src="https://i.imgur.com/2ZrHJrR.jpg" alt="" />
+          <p>
+            Get one of these bikes <br />Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Fuga architecto dolor eaque ut fugit natus
+            quibusdam inventore aspernatur veniam neque.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Or This One</h3>
+          <img src="https://i.imgur.com/Net6CV2.jpg" alt="" />
+          <p>
+            Get one of these bikes <br />Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Fuga architecto dolor eaque ut fugit natus
+            quibusdam inventore aspernatur veniam neque.
+          </p>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section id="price">
+      <h2 id="price-heading">Our Prices</h2>
+      <div class="container bikes">
+        <div class="card">
+          <h3>Small Bike</h3>
+          <p class="price">$50/Day</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            sapiente rerum possimus vitae, iure quo non
+          </p>
+          <button class="btn center">
+            Select
+          </button>
+        </div>
+        <div class="card">
+          <h3>Medium Bike</h3>
+          <p class="price">$100/Day</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            sapiente rerum possimus vitae, iure quo non
+          </p>
+          <button class="btn center">
+            Select
+          </button>
+        </div>
+        <div class="card">
+          <h3>Big Bike</h3>
+          <p class="price">$150/Day</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            sapiente rerum possimus vitae, iure quo non
+          </p>
+          <button class="btn center">
+            Select
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
