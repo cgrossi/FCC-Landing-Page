@@ -134,9 +134,9 @@ form p {
   overflow: hidden;
   padding: 15px;
   border-radius: 2px;
-  border: 1px solid rgb(90, 90, 90);
   width: 200px;
   background: rgb(255, 255, 255);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 .card h3 {
@@ -145,7 +145,7 @@ form p {
   padding: 10px;
   margin: 5px 0;
   margin-top: 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.164);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .card img {
