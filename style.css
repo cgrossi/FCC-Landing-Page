@@ -218,6 +218,7 @@ form p {
     font-size: 2em;
     color: rgba(39, 39, 39, 0.801);
     display: inline;
+    cursor: pointer;
   }
 
   #header-img {
